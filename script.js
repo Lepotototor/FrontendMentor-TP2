@@ -4,11 +4,11 @@ let arrows = document.getElementsByClassName("arrow");
 let title = document.getElementsByClassName("title");
 let index = 5;
 
-elements[0].addEventListener("click", fun0);
-elements[1].addEventListener("click", fun1);
-elements[2].addEventListener("click", fun2);
-elements[3].addEventListener("click", fun3);
-elements[4].addEventListener("click", fun4);
+title[0].addEventListener("click", fun0);
+title[1].addEventListener("click", fun1);
+title[2].addEventListener("click", fun2);
+title[3].addEventListener("click", fun3);
+title[4].addEventListener("click", fun4);
 
 function showText (i) {
   console.log(index);
